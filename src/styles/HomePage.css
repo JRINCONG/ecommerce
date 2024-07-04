@@ -86,7 +86,7 @@
 @media (width < 850px ){
 
     .Form_Product{
-     background-color: #d56666;
+     background-color: hsl(0, 3%, 94%);
      border-radius: 10px;
      
      gap:20px;
