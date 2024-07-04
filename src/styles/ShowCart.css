@@ -1,0 +1,139 @@
+
+.Cart_section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 80%;
+    max-height: 300px;
+    align-items: center;
+    position: relative;
+    gap:20px;
+    padding: 10px;
+    border:1px solid red;
+    max-width: 450px;
+    border-radius: 8px;   
+
+}
+
+.Cart_section_img{
+    display: flex;
+    max-width: 40%;
+   
+    
+}
+
+.Cart_section_img img{
+    object-fit: cover;
+    max-height: 100px;  
+    padding: 6px;
+    display: flex;
+
+
+}
+.Cart_section_name_Qty{
+    display: flex;
+    max-width: 200px;
+    gap: 3px;
+    max-height: 100%;
+    font-size: 13px;
+    flex-direction: column;
+   
+    justify-self: center;
+    justify-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40%;  
+    justify-content: center;
+    justify-content: space-around;  
+    
+   
+}
+.Cart_section_name_Qty_qty{
+    border:1px solid gray;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Cart_section_name_Qty_title p{
+    flex-wrap: wrap;
+    display: flex;
+  
+    width: 100px;
+    
+    
+}
+.Cart_section_name_Qty_title{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Cart_section_name_Qty_item{
+    
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    
+}
+.Cart_section_total{
+    display: flex;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 120px;
+    overflow: hidden;
+    
+    
+}
+.Cart_section_total_item{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.Cart_section_btn{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    color: #f85555;
+    font-size: 20px;
+      
+}
+.Cart_section_btn_btn{
+    color: #f85555;
+    font-size: 20px;
+    border: 0;
+    background-color: #fff;
+}
+
+.Cart_section_qty{
+   border: 1px solid grey;
+    width: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.Cart_section_menos{
+    border: 1px solid grey;
+    display: flex;
+    padding: 5px;
+}
+.Cart_section_mas{
+    border: 1px solid grey; 
+    padding: 5px;
+}
+
+.Cart_section_total_title{
+    font-size: 14px;
+    color: grey;
+}

@@ -1,0 +1,76 @@
+
+.Container_purchases{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    
+    padding: 10px;
+    flex-wrap: wrap;
+    min-width:100vh ;
+    
+    
+}
+.Purchases_purchases{
+    display: flex;
+    min-width: 40%;
+    color: red;
+    margin-top: 30px;
+
+}
+.Purchases_section{
+    
+    display: inline-flex;
+    height: 200px;    
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 10px;
+    border:1px solid red;
+    min-width: 600px;
+    border-radius: 8px; 
+}
+.Purchases_section_img{
+    display: inline-block;
+    align-items: center;
+    max-width: 40%;
+    box-sizing: border-box;
+    
+}
+.Purchases_section_img_img{
+
+    object-fit: cover;
+    max-height: 100px;  
+    padding: 6px;
+    display: flex;
+}
+
+.Purchases_title{
+    display: inline-block;
+   
+   
+    max-width: 200px;
+  
+   
+}
+.Purchases_datos_general{
+    display: flex;
+    
+    min-width: 200px;
+    gap:40px;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: center;
+    
+    margin-right: 15px;
+   
+}
+
+
+.Purchases_qty{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 15px;
+    align-items: center;
+}

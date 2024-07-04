@@ -1,0 +1,40 @@
+.Detalle_slide{
+    display: flex;
+    
+    justify-content: center;
+    object-fit: cover;
+    flex-wrap: wrap;
+  
+     
+
+}
+.Detalle_slide_img{
+    display: flex;
+    align-items: center;
+    object-fit: conver;
+}
+
+.Detalle_slide_img img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 10px ;  
+    object-fit: contain;
+    
+}
+.Detalle_siguiente{
+ font-size: 50px;
+ 
+ object-fit: cover;
+
+ object-fit:cover;
+ cursor: pointer;
+}
+.Detalle_anterior{
+    font-size: 50px;
+ 
+    object-fit: cover;
+   
+    object-fit:cover;
+    cursor: pointer;
+}

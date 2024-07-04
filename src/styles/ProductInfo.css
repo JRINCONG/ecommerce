@@ -1,0 +1,22 @@
+.ProductInfo_Container{
+
+   display:flex;
+   flex-wrap: wrap;
+   min-width: 100%;
+   
+    
+    
+
+   
+    align-items: center;
+    
+ 
+}
+
+.Container_slider_Detalle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}

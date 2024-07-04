@@ -1,0 +1,29 @@
+Form_form_price{
+    display: flex;
+    flex-direction: column;
+}
+.FormPrice_form_container{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.FormPrice_form_container label{
+    padding: 5px;
+}
+
+.FormPrice_form_container input{
+    max-width: 100px;
+
+}
+.FormPrice_form_container_btn{
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    align-self: center;
+    background-color: #f85555;
+    color: #fff;
+    border: 0;
+    padding: 3px;
+    border-radius: 5px;
+}

@@ -1,0 +1,125 @@
+.Conten_general{
+      
+    display: flex;
+    padding: 20px 20px 20px 200px;
+    height: 100vh; 
+    gap: 10px;
+
+    
+}
+
+.Contain_Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.search-box{
+    display: flex;
+   
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.HomePage_Container{
+    display: flex;
+    gap: 10px;
+
+    padding: 5px; 
+    flex-direction: column;
+ 
+    height: 100vh;
+    box-sizing: border-box;
+    object-fit: contain;
+
+}
+.Form_Product{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    gap:60px;
+    
+    align-items: center;    
+    max-height: 100vh;
+    position: fixed;
+    top: 175px;
+    left: 0;
+    
+  
+    
+    
+}
+.Form_Product_btn1{
+    display: none;
+    align-self: flex-end;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.Form_Price{
+    display: flex;
+    flex-direction: column;
+   
+    height: 150px;
+    max-width: 150px ;
+    justify-content: space-evenly;
+    
+}
+
+.BUscar_marcas{
+    display: flex;
+   
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: end;
+}
+
+.btn_btn{
+  display: none;
+    align-self: flex-end;
+    margin-top: 50px;
+}
+
+@media (width < 850px ){
+
+    .Form_Product{
+     background-color: #d56666;
+     border-radius: 10px;
+     
+     gap:20px;
+     left: 100%;
+     transition: left .5s;
+     width: 250px;
+    
+    
+    }
+    .Form_Product.active{
+        left:33%;
+        transition: left .5s;
+    }
+    .Form_Product_btn1{
+        display: inline-block;
+        align-self: flex-end;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+
+    .Conten_general{
+    padding: 20px;
+    }
+    .btn_btn{
+        display: inline-block;
+          align-self: flex-end;
+      }
+      
+      .btn_btn.active{
+        visibility: hidden;
+      }
+}

@@ -1,0 +1,39 @@
+.Container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Cart_container_totalProductos{
+
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+    align-items: center;
+    gap:30px;
+}
+
+.Cart_container_total_title{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    justify-content: space-between;
+}
+.Cart_container_total_title li{
+    display: flex;
+    gap:10px;
+}
+
+.Buy_btn{
+    background-color: #f55555;
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+}
